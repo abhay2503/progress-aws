@@ -41,7 +41,7 @@ const authenticateJwt = (req, res, next) => {
   
 // ----------------------------------ADMIN ROUTES--------------------------------------------//
 
-
+app.get('/',(req,res)=>res.send('hello'))
 
 // -------------login user-----------------
 app.post('/api/usr_login', async (req, res) => {
